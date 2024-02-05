@@ -1,0 +1,34 @@
+<<NDF>>: (Dot) Net Data Format 1.0 
+<<DESC>>: Exported by DataPower
+<[LOTINFO]>:
+<Para>:ID,LID,LOT_ID,TESTMODE,JOBNAM,NOD_NAM
+<Type>:System.Int32,System.Int32,System.String,System.Char,System.String,System.String
+1, 1, ZA83771.1, P, AD8586REG_V16, ETS87-01
+2, 1, ZA87361.1, R, AD8586REG_V16, ETS73-02
+3, 1, ZA98377.1, R, AD8586REG_V16, ETS87-01
+<[BININFO]>:
+<Para>:ID, LID, HEAD_NUM, SITE_NUM, BIN_NUM, BIN_NAM, BIN_TYP, BIN_CNT
+<Type>:System.Int32, System.Int32, System.Byte, System.Byte, System.Int32, System.String, System.Char, System.Int32
+1, 1, 1, 0, 2,Continuity, H, 3
+2, 1, 1, 0, 1,Pass, H, 39002
+3, 1, 1, 0, 3,DC_Fail, H, 32
+4, 1, 1, 0, 4,RF_Fail, H, 16
+5, 1, 1, 0, 5,Digital_Fail, H, 10
+<[TESTINFO]>:ProgramName_Revision
+<Para>:TNUM, TNAM, UNIT, HI_LIMIT, LO_LIMIT
+<Type>:System.Int32, System.String, System.String, System.Single, System.Single
+1, OS_SCI, mV, -201.34, -799.98
+2, OS_SDA, mV, -300.45, -900.00
+<[RAWDATA]>:ProgramName_Revision
+<Para>:ID, LID, LOT_ID, PART_ID, WAFER_ID, XCOOR, YCOOR, HBIN, SBIN, PF, TEST_T, PART_TXT, CHIP_TXT, [1001]OS_SCI, [1002]OS_DAT, [1003]OS_CLK
+<Type>:System.Int32, System.Int32, System.String, System.String, System.String, System.Int32, System.Int32, System.Byte, System.Byte, System.Char, System.Int32, System.String, System.String, System.Single, System.Single, System.Single
+<Unit>:,,,,,,,,,,,,,mV, mV, mV
+<USL>:,,,,,,,,,,,,,-800,-900,-850
+<LSL>:,,,,,,,,,,,,,-200,-300,-250
+1,1,ZA83771,1,ZDEIAD-01,50,1,1,1,P,340,GIUDJZ90.1,GIUJZ98.01,-450,-540,-450.4
+1,1,ZA83771,1,ZDEIAD-01,50,1,1,1,P,340,GIUDJZ90.1,GIUJZ98.01,-450,-540,-450.4
+1,1,ZA83771,1,ZDEIAD-01,50,1,1,1,P,340,GIUDJZ90.1,GIUJZ98.01,-450,-540,-450.3
+1,1,ZA83771,1,ZDEIAD-01,50,1,1,1,P,340,GIUDJZ90.1,GIUJZ98.01,-450,-540,-459.9
+1,1,ZA83771,1,ZDEIAD-01,50,1,1,1,P,340,GIUDJZ90.1,GIUJZ98.01,-450,-540,-451.3
+1,1,ZA83771,1,ZDEIAD-01,50,1,1,1,P,340,GIUDJZ90.1,GIUJZ98.01,-450,-540,-550.26
+1,1,ZA83771,1,ZDEIAD-01,50,1,1,1,P,340,GIUDJZ90.1,GIUJZ98.01,-450,-540,-450.98
